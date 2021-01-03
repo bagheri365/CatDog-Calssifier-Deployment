@@ -1,0 +1,32 @@
+#header{
+    background-color: #219975;
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-color: white;
+    text-align: center;
+}
+
+#container {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 200;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 100;
+}
+
+#footer{
+    text-align: right;
+}
