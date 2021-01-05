@@ -9,6 +9,11 @@ In this repository, I share my practice in containerizing a Machine Learning (ML
 
 ## Steps
 
+- Build the ML model
+
+- Create the Flask application
+- Create the requirement file
+- Write the Docker File
 
 ## Demos
 
