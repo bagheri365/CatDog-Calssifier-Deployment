@@ -7,13 +7,13 @@ In this repository, I share my practice in containerizing a Machine Learning (ML
 - Flask, HTML & CSS
 - Docker
 
-## Steps
+## About the ML model
 
-- Build the ML model
+Here is the block diagram of the ML model.
 
-- Create the Flask application
-- Create the requirement file
-- Write the Docker File
+It consists of data preprocessing, feature extraction and classifier. In the training phase, data augmentation and dropouts techniques are utitlized to improve the performance.
+
+## Docker
 
 ## Demos
 
