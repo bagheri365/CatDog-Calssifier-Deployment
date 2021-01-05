@@ -7,7 +7,18 @@ In this repository, I share my practice in containerizing a Machine Learning (ML
 - Flask, HTML & CSS
 - Docker
 
-## About the ML model
+## Data
+
+The data can be downloaded as the following:
+
+'''
+wget --no-check-certificate \
+  https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip \
+  -O ./data/cats_and_dogs_filtered.zip
+'''
+
+
+## ML model
 
 The ML model consists of data preprocessing, feature extraction and classifier. In the training phase, data augmentation and dropouts techniques are utitlized to improve the performance. Below is the block diagram of the ML model.
 
@@ -18,8 +29,15 @@ The ML model consists of data preprocessing, feature extraction and classifier. 
     Figure: Cat vs Dog Classifier diagram.
 </p>
 
+The inception v3 model weights can be accessed as the folowing:
 
-## About the Docker
+'''
+wget --no-check-certificate \
+    https://storage.googleapis.com/mledu-datasets/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5 \
+    -O ./tmp/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5
+'''
+
+## Docker
 
 #### Build a docker image
 
@@ -44,21 +62,15 @@ Note that the container simply is running instance of the image.
 
 ## Demos
 
-Here are demos of the REST API.
+Here are demos of the REST API built with Flask.
 
 
 <p align="center">
     <img src="https://github.com/bagheri365/CatDog-Calssifier-Deployment/blob/main/demo/demo_01.png">
 </p>
 <p align="center">
-    Figure: Cat vs Dog Classifier diagram.
-</p>
-
-<p align="center">
     <img src="https://github.com/bagheri365/CatDog-Calssifier-Deployment/blob/main/demo/demo_02.png">
 </p>
-<p align="center">
-    Figure: Cat vs Dog Classifier diagram.
-</p>
+
 
 
