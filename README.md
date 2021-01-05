@@ -29,7 +29,7 @@ The ML model consists of data preprocessing, feature extraction and classifier. 
     Figure: Cat vs Dog Classifier diagram.
 </p>
 
-The inception v3 model weights can be accessed as the folowing:
+The inception v3 weights can be accessed as the folowing:
 
 ```
 wget --no-check-certificate \
