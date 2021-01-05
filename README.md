@@ -44,3 +44,21 @@ Note that the container simply is running instance of the image.
 
 ## Demos
 
+Here are demos of the REST API.
+
+
+<p align="center">
+    <img src="https://github.com/bagheri365/CatDog-Calssifier-Deployment/blob/main/demo/demo_01.png">
+</p>
+<p align="center">
+    Figure: Cat vs Dog Classifier diagram.
+</p>
+
+<p align="center">
+    <img src="https://github.com/bagheri365/CatDog-Calssifier-Deployment/blob/main/demo/demo_02.png">
+</p>
+<p align="center">
+    Figure: Cat vs Dog Classifier diagram.
+</p>
+
+
