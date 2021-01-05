@@ -34,7 +34,7 @@ The inception v3 model weights can be accessed as the folowing:
 ```
 wget --no-check-certificate \
     https://storage.googleapis.com/mledu-datasets/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5 \
-    -O ./tmp/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5
+    -O ./data/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5
 ```
 
 ## Docker
