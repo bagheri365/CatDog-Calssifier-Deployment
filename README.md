@@ -1,6 +1,6 @@
 # Deployment of a Cat and Dog Image Classifier with Flask and Docker
 
-In this repository, I share my practice in containerizing a Machine Learning (ML) model as REST API using Flask and Docker.
+In this repository, I share my practice in containerizing a Machine Learning (ML)/Deep Learning model as REST API using Flask and Docker.
 
 ## Tools
 - Python (Tensorflow & Pillow)
@@ -20,7 +20,7 @@ wget --no-check-certificate \
 
 ## ML model
 
-The ML model consists of data preprocessing, feature extraction and classifier. In the training phase, data augmentation and dropouts techniques are utitlized to improve the performance. Below is the block diagram of the ML model.
+The ML model consists of data preprocessing, feature extraction and classifier. In the training phase, data augmentation and dropouts techniques are utitlized to improve the performance. Below is the block diagram of the deep learning model.
 
 <p align="center">
     <img src="https://github.com/bagheri365/CatDog-Calssifier-Deployment/blob/main/demo/ML_diagram.png">
@@ -55,7 +55,7 @@ Build an image from the Dockerfile as the following:
 docker build -t myimage:latest .
 ```
 
-Note that a Docker Image is a template that contains the application, and all the dependencies required to run that application on Docker.
+Note that a docker Image is a template that contains the application, and all the dependencies required to run that application on Docker.
 
 #### Run the docker container
 
