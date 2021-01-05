@@ -11,7 +11,16 @@ In this repository, I share my practice in containerizing a Machine Learning (ML
 
 Here is the block diagram of the ML model.
 
+<p align="center">
+    <img src="https://github.com/bagheri365/CatDog-Calssifier-Deployment/blob/main/demo/ML_diagram.png">
+</p>
+<p align="left">
+    Figure: Cat vs Dog Classifier diagram.
+</p>
+
 It consists of data preprocessing, feature extraction and classifier. In the training phase, data augmentation and dropouts techniques are utitlized to improve the performance.
+
+
 
 ## Docker
 
