@@ -25,7 +25,9 @@ The ML model consists of data preprocessing, feature extraction and classifier. 
 
 Build an image from the Dockerfile as the following:
 
+```
 docker build -t myimage:latest .
+```
 
 Note that a Docker Image is a template that contains the application, and all the dependencies required to run that application on Docker.
 
@@ -33,7 +35,9 @@ Note that a Docker Image is a template that contains the application, and all th
 
 You can run the docker container as the following:
 
+```
 docker run -it -p 5000:5000 myimage
+```
 
 Note that the container simply is running instance of the image.
 
