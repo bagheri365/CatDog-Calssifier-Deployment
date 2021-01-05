@@ -11,11 +11,11 @@ In this repository, I share my practice in containerizing a Machine Learning (ML
 
 The data can be downloaded as the following:
 
-'''
+```
 wget --no-check-certificate \
   https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip \
   -O ./data/cats_and_dogs_filtered.zip
-'''
+```
 
 
 ## ML model
@@ -31,11 +31,11 @@ The ML model consists of data preprocessing, feature extraction and classifier. 
 
 The inception v3 model weights can be accessed as the folowing:
 
-'''
+```
 wget --no-check-certificate \
     https://storage.googleapis.com/mledu-datasets/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5 \
     -O ./tmp/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5
-'''
+```
 
 ## Docker
 
