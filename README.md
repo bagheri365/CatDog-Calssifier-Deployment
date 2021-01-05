@@ -41,6 +41,14 @@ wget --no-check-certificate \
 
 #### Build a docker image
 
+
+Clone the repository into your local machine as the following:
+
+```
+git clone https://github.com/bagheri365/CatDog-Calssifier-Deployment.git mygit
+cd mygit
+```
+
 Build an image from the Dockerfile as the following:
 
 ```
