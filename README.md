@@ -55,7 +55,7 @@ Build an image from the Dockerfile as the following:
 docker build -t myimage:latest .
 ```
 
-Note that a docker Image is a template that contains the application, and all the dependencies required to run that application on Docker.
+Note that a docker image is a template that contains the application, and all the dependencies required to run that application on Docker.
 
 #### Run the docker container
 
